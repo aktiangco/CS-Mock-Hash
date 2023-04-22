@@ -20,7 +20,7 @@ checkPassword = async (username, plaintextPassword) => {
     // Ensure global store contains the user 
     // (this is a quick way to check if an object contains a key)
     if (globalStore[username]) {
-        // TODO: Use bcrypt's compare methof to compare a plaintext password to a password hash
+        // TODO: Use bcrypt's compare method to compare a plaintext password to a password hash
 
         // TODO: The result variable is a boolean. True means the user was valid. Take action accordingly.
         if (result) {
